@@ -152,3 +152,24 @@
     animation-delay: 1.5s;
     width: 15px;
 }
+@media (max-width: 767px)
+{
+	header
+	{
+		flex-direction: column;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px)
+{
+	.bgimg
+	{
+		background-size: 50%;
+	}
+}
+@media (min-width: 992px)
+{
+	.bgimg
+	{
+		background-size: 33%;
+	}
+}
